@@ -5,7 +5,7 @@ My front-end portfolio and projects
 A fully responsive multi-page bakery website built with HTML, CSS, and Bootstrap.
 
 ## 🔗 Live Demo
-[https://adizua803.github.io/chigirl.github.io/](https://adizua803.github.io/chigirl.github.io/)
+[https://adizua803.github.io/chigirl.github.io/lol](https://adizua803.github.io/chigirl.github.io/lol/)
 
 ## 🛠️ Technologies Used
 - HTML5
