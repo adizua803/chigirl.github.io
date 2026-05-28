@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Place Order - Tasty Eats</title>
+  <link rel="stylesheet" href="order.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>Place Your Order</h1>
+    <form id="orderForm">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" required />
+
+      <label for="product">Select Item</label>
+      <select id="product" required>
+        <option value="">--Choose--</option>
+        <option value="Vanilla Cake">Vanilla Cake - #35000</option>
+        <option value="Croissant">Croissant - #50000</option>
+        <option value="Delicious Donut">Donut - #20000</option>
+        <option value="cheesecake">Cheesecake - #25000</option>
+        <option value="Delicious Bread">Delicious Bread - #45000</option>
+        <option value="Snow cone">Snow cone - #10000</option>
+        <option value="Fruit smoothies">Fruit smoothies - #30000</option>
+        <option value="Tasty cupcakes">Tasty cupcakes - #25000</option>
+        <option value="Apple Pie">Apple Pie - #95700</option>
+      </select>
+
+      <label for="quantity">Quantity</label>
+      <input type="number" id="quantity" min="1" required />
+
+      <button type="submit">Place Order</button>
+    </form>
+  </div>
+
+    
+  <script>document.getElementById("orderForm").addEventListener("submit", function (e) {
+      e.preventDefault();
+      const acctNum = prompt("Enter your account number to complete payment:");
+      if (acctNum && acctNum.trim().length >= 10) {
+        alert("Payment successful! Thank you for your order.");
+        window.location.href = "homepage.html";
+      } else {
+        alert("Invalid account number. Please try again.");
+      }
+    });
+  </script>
+</body>
+
+</html>

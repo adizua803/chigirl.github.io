@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.tastyeats.com</title>
+    <link rel="stylesheet" href="defense.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+<link href="https://cdn.boxicons.com/3.0.6/fonts/basic/boxicons.min.css" rel="stylesheet">
+<link href="https://cdn.boxicons.com/3.0.6/fonts/brands/boxicons-brands.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <script>
+        alert('welcome to Tasty Eats Bakery')
+    </script>
+    <header>
+        <div class="logo">
+            <img src="chichigirl.jpg" alt="TastyEats Logo">
+            <h1>TastyEats</h1>
+        </div>
+        <nav class="navbar">
+            <ul class="nav-links" id="navLinks">
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="howtobake.html">Bake guide</a></li>
+                <li><a href="order.html">Order</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <a href="logsign.html" class="signin-btn">Sign In</a>
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        </nav>
+    </header>
+
+    <!-- <div class="quote-button">
+        <a href="quote.html">Get a Quote</a>
+    </div> -->
+    </header>
+
+    <!-- Hero Section -->
+    <div style="background-color: lightcoral;" class="text-center">
+        <img class="img-fluid" style="width: 150px; height: 150px;" src="chichigirl.jpg" alt="">
+    </div>
+    <section style="background-color:lightcoral ;" class="hero-section text-white d-flex align-items-center"
+        style="background: url('https://images.unsplash.com/photo-1542834369-f10ebf06d3cb') center/cover no-repeat; height: 100vh; background-color: wheat;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div style="background-color: pink; border-radius: 12px;" class="col-lg-6">
+                    <h1 style="color: black;" class="display-4 fw-bold">Experience Freshly Baked Delights</h1>
+                    <p style="color: black;" class="lead">Crafted with passion, baked with love. Start your day with
+                        something sweet from our
+                        artisan bakery.</p>
+                </div>
+                <div class="col-lg-5 offset-lg-1">
+                    <div style="background-color: white; box-shadow: white;" class="card p-4 bi-emoji-smile text-dark">
+                        <h5 class="mb-3">Get in Touch</h5>
+                        <form>
+                            <div class="mb-2">
+                                <input type="text" class="form-control" placeholder="Your Name">
+                            </div>
+                            <div class="mb-2">
+                                <input type="email" class="form-control" placeholder="Your Email">
+                            </div>
+                            <button style="background-color: #0099FF;" type="submit" class="btn w-100">Send
+                                Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Features Section -->
+    <section style="background-color: #FFF3E0;" class="py-5 text-center">
+        <div class="container">
+            <h2 class="mb-4">How Our Bakery Crafts Each Delight</h2>
+            <div class="row g-4">
+                <div style="background-color: pink; border-radius: 12px;" class="col-6 col-md-3 mx-4">
+                    <i class="bi bi-basket-fill fs-1 text-primary"></i>
+                    <h5 class="mt-3">Handpicked Ingredients</h5>
+                    <p class="small text-muted">Only the freshest, locally sourced items go into our baking.</p>
+                </div>
+                <div style="background-color: pink; border-radius: 12px;" class="col-6 col-md-3 mx-4">
+                    <i class="bi bi-fire fs-1 text-danger"></i>
+                    <h5 class="mt-3">Oven-Fresh Daily</h5>
+                    <p class="small text-muted">Baked fresh every morning for peak flavor and texture.</p>
+                </div>
+                <div style="background-color: pink; border-radius: 12px;" class="col-6 col-md-3 mx-4">
+                    <i class="bi bi-emoji-smile fs-1 text-success"></i>
+                    <h5 class="mt-3">Customer Love</h5>
+                    <p class="small text-muted">Trusted by hundreds of returning happy customers.</p>
+                </div>
+                <div style="background-color: pink; border-radius: 12px;" class="col-6 col-md-3 mx-4">
+                    <i class="bi bi-truck fs-1 text-warning"></i>
+                    <h5 class="mt-3">Fast Delivery</h5>
+                    <p class="small text-muted">Swift and careful delivery, always on time.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Bakery Section -->
+    <section style="background-color: tan !important" class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 mt-0 pt-0">
+                    <h2 class="mb-3">Experience the Heart of Artisan Baking</h2>
+                    <p class="mb-4 text-muted">
+                        Discover the magic behind every pastry, crafted with love and tradition. Our bakers blend
+                        modern techniques with timeless recipes to deliver unforgettable flavors.
+                    </p>
+                    <a href="#" style="background-color: #0099FF;" class="btn">Explore Our Bakery</a>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="c:\Users\user\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\986E781559EDBB32E805D4B135780812\WhatsApp Image 2025-11-23 at 08.20.09_581d2cc5.jpg"
+                        alt="Bakery front view" class="img-fluid rounded shadow-sm">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Product Gallery Section -->
+
+    <section style="background-color: pink;" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Explore Fresh Bakes, Sweet Treats & Unique Flavors</h2>
+            <div class="row g-4">
+                <!-- Product Card 1 -->
+                <div class="col-6 col-md-3">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="https://media.gettyimages.com/id/1336647078/photo/selection-of-homemade-rustic-baked-goods-such-as-sweet-pies-and-cupcakes.jpg?s=612x612&w=0&k=20&c=d9PBUSYSvyQ7XgnP2d1eBeteMU790ALNWg6vD1EE7yE="
+                            class="card-img-top" alt="Cake 1">
+                        <div class="card-body text-center">
+                            <h6 class="card-title">Tasty Cakes</h6>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-warning mx-0" type="button">
+                                   
+  <a href="order.html?item=Vanilla+Cake" class="order-btn text-decoration-none text-white text-bolder"><p>₦78900</p></a>
+
+                                </button>
+                                <!-- <button class="btn btn-primary" type="button">Button</button> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- product card 2 -->
+                <div class="col-6 col-md-3">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="https://media.gettyimages.com/id/746030453/photo/a-banana-split-with-vanilla-ice-cream-banana-chocolate-sauce-cream-and-cherries.jpg?s=612x612&w=0&k=20&c=soxJR_lZfsU4ZL7d7GHRPs9ceUtoSMTL885lnyz5mFI="
+                            class="card-img-top" alt="Cake 2">
+                        <div class="card-body text-center">
+                            <h6 class="card-title">Vanilla Dream</h6>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-warning mx-0" type="button">
+                                    <a href="order.html?item=Vanilla+Cake" class="order-btn text-decoration-none text-white text-bolder"><p>₦40000</p></a>
+                                </button>
+                                <!-- <button class="btn btn-primary" type="button">Button</button> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 3 -->
+                <div class="col-6 col-md-3">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="https://media.gettyimages.com/id/905563616/photo/preparing-chocolate-chip-cookies.jpg?s=612x612&w=0&k=20&c=AVSRknHKDOAJjbkYCRHnK0vWL5BKBz08-XEPzmPn8DA="
+                            class="card-img-top" alt="Cake 2">
+                        <div class="card-body text-center">
+                            <h6 class="card-title">Crumby cookies</h6>
+
+
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-warning mx-0" type="button">
+                                    <a href="order.html?item=Vanilla+Cake" class="order-btn text-decoration-none text-white text-bolder"><p>₦20000</p></a>
+                                </button>
+                                <!-- <button class="btn btn-primary" type="button">Button</button> -->
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 4 -->
+                <div class="col-6 col-md-3">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="https://media.gettyimages.com/id/171101866/photo/patisserie-showcase.jpg?s=612x612&w=0&k=20&c=F3rY6JVuuGEdMQMdp8lLOiCZVjndLyTWCiYqOwUVhxQ="
+                            class="card-img-top" alt="Pastries">
+                        <div class="card-body text-center">
+                            <h6 class="card-title">Mixed Pastries</h6>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-warning mx-0" type="button">
+                                    <a href="order.html?item=Vanilla+Cake" class="order-btn text-decoration-none text-white text-bolder"><p>₦35000</p></a>
+                                </button>
+                                <!-- <button class="btn btn-primary" type="button">Button</button> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+    <section style="background-color: pink;" class="py-5 ">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Product Card 1 -->
+                <div class="col-6 col-md-3">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="https://media.gettyimages.com/id/184355725/photo/bread.jpg?s=612x612&w=0&k=20&c=VD_zv5K4jyiQDciBe7U5a-OT7iqm5QKDRpSye9ICJiY="
+                            class="card-img-top" alt="Cake 1">
+                        <div class="card-body text-center">
+                            <h6 class="card-title">Delicious Bread</h6>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-warning mx-0" type="button">
+                                    <a href="order.html?item=Vanilla+Cake" class="order-btn text-decoration-none text-white text-bolder"><p>₦45000</p></a>
+                                </button>
+                                <!-- <button class="btn btn-primary" type="button">Button</button> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- product card 2 -->
+                <div class="col-6 col-md-3">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="https://media.gettyimages.com/id/483094539/photo/pink-cupcakes.jpg?s=612x612&w=0&k=20&c=kl27Bk0ndUl5MIU95WJ6aagL4GdqniKTjqWcn8kOvRk="
+                            class="card-img-top" alt="Cake 2">
+                        <div class="card-body text-center">
+                            <h6 class="card-title">Tasty cupcakes</h6>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-warning mx-0" type="button">
+                                    <a href="order.html?item=Vanilla+Cake" class="order-btn text-decoration-none text-white text-bolder"><p>₦25000</p></a>
+                                </button>
+                                <!-- <button class="btn btn-primary" type="button">Button</button> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 3 -->
+                <div class="col-6 col-md-3">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="https://media.gettyimages.com/id/155596845/photo/apple-pie.jpg?s=612x612&w=0&k=20&c=10fWRETTqchk4z-0WEFSY3KIg1_tYuk4eng2LxLdQFw="
+                            class="card-img-top" alt="Cake 2">
+                        <div class="card-body text-center">
+                            <h6 class="card-title">Apple Pie</h6>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-warning mx-0" type="button">
+                                    <a href="order.html?item=Vanilla+Cake" class="order-btn text-decoration-none text-white text-bolder"><p>₦95700</p></a>
+                                </button>
+                                <!-- <button class="btn btn-primary" type="button">Button</button> -->
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 4 -->
+                <div class="col-6 col-md-3">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="https://media.gettyimages.com/id/521052166/photo/hawaiian-shave-ice.jpg?s=612x612&w=0&k=20&c=uPUVnoHuX_VgjPhE5US5pMl6kJj0dZHgmEi6C5ZjCec="
+                            class="card-img-top" alt="Pastries">
+                        <div class="card-body text-center">
+                            <h6 class="card-title">Snow cones</h6>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-warning mx-0" type="button">
+                                    <a href="order.html?item=Vanilla+Cake" class="order-btn text-decoration-none text-white text-bolder"><p>₦10000</p></a>
+                                </button>
+                                <!-- <button class="btn btn-primary" type="button">Button</button> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- gallery order -->
+    <section style="background-color: pink;" class="py-5">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Product Card 1 -->
+                <div class="col-6 col-md-3">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="https://media.gettyimages.com/id/155376375/photo/fruit-juice.jpg?s=612x612&w=0&k=20&c=DHpot0a67oN-8lSW0CMI7Y4vLM-TlMBBqA7c5kCfrNo="
+                            class="card-img-top" alt="Cake 1">
+                        <div class="card-body text-center">
+                            <h6 class="card-title">Fruit smoothies</h6>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-warning mx-0" type="button">
+                                    <a href="order.html?item=Vanilla+Cake" class="order-btn text-decoration-none text-white text-bolder"><p>₦30000</p></a>
+                                </button>
+                                <!-- <button class="btn btn-primary" type="button">Button</button> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- product card 2 -->
+                <div class="col-6 col-md-3">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="https://media.gettyimages.com/id/588432209/photo/ring-doughnuts-covered-in-icing-and-sprinkes.jpg?s=612x612&w=0&k=20&c=53ZN2H9xGvmEvXzGGfFIlMUKawoh78OWtX8xefB50_I="
+                            class="card-img-top" alt="Cake 2">
+                        <div class="card-body text-center">
+                            <h6 class="card-title">Delicious doughnuts</h6>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-warning mx-0" type="button">
+                            <a href="order.html?item=Vanilla+Cake" class="order-btn text-decoration-none text-white text-bolder"><p>₦20000</p></a>
+                                </button>
+                                <!-- <button class="btn btn-primary" type="button">Button</button> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 3 -->
+                <div class="col-6 col-md-3">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="https://media.gettyimages.com/id/1301304102/photo/cheesecake-slice-on-a-knife.jpg?s=612x612&w=0&k=20&c=fe252EuOEoG3RdsnU5ho9n9RTtnQ2xVH-X_BDKk7oAo="
+                            class="card-img-top" alt="Cake 2">
+                        <div class="card-body text-center">
+                            <h6 class="card-title">Cheese cakes</h6>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-warning mx-0" type="button">
+                                    <a href="order.html?item=Vanilla+Cake" class="order-btn text-decoration-none text-white text-bolder"><p>₦25000</p></a>
+                                </button>
+                                <!-- <button class="btn btn-primary" type="button">Button</button> -->
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 4 -->
+                <div class="col-6 col-md-3">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="https://media.gettyimages.com/id/1291793853/photo/baked-ham-and-brie-croissant-sandwiches-with-dijon-mustard.jpg?s=612x612&w=0&k=20&c=_FCC8G7c5I0_CuS4dlCMsQ9SmQNkLIGEVdJMhSnGEg4="
+                            class="card-img-top" alt="Pastries">
+                        <div class="card-body text-center">
+                            <h6 class="card-title">croissants</h6>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-warning mx-0" type="button">
+                                    <a href="order.html?item=Vanilla+Cake" class="order-btn text-white text-decoration-none"><p>₦50000</p></a>
+                                </button>
+                                <!-- <button class="btn btn-primary" type="button">Button</button> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="quick-links">
+        <h2>Quick Links to Other Bakeries</h2>
+        <p>Click on any image of interest to get to know our partners</p>
+        <div class="links-container">
+            <a href="https://nibblesbakery.ng/" target="_blank" rel="noopener">
+                <img src="https://nibblesbakery.ng/images/MURB5218.webp" alt="Bakery 1" />
+            </a>
+            <a href="https://zuzudelights.com/" target="_blank" rel="noopener">
+                <img src="https://i0.wp.com/zuzudelights.com/wp-content/uploads/2022/08/Chocolate-cake-recipe-1200a-1.jpg?w=300&ssl=1"
+                    alt="Bakery 2" />
+            </a>
+            <a href="https://divacakes.com.ng/" target="_blank" rel="noopener">
+                <img src="https://divacakes.com.ng/wp-content/uploads/2021/07/cake-1-jpg-webp.webp" alt="Bakery 3" />
+            </a>
+        </div>
+    </section>
+
+
+    <!-- Testimonials Section -->
+    <section style="background-color: #F9F9F9;" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">What Our Customers Say</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="bg-white p-4 shadow-sm rounded">
+                        <p class="mb-3 text-muted">“Absolutely the best croissants in town! Fresh, flaky, and full of
+                            flavor.”</p>
+                        <h6 class="mb-0">— Sarah A.</h6>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="bg-white p-4 shadow-sm rounded">
+                        <p class="mb-3 text-muted">“Ordering was so easy, and delivery came right on time. 10/10
+                            service.”</p>
+                        <h6 class="mb-0">— Tunde K.</h6>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="bg-white p-4 shadow-sm rounded">
+                        <p class="mb-3 text-muted">“My kids loved the cookies! You’ve got a new loyal customer for
+                            sure.”</p>
+                        <h6 class="mb-0">— Maria N.</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Freshness Promise / Banner Section -->
+    <section class="py-5 text-white" style="background-color: #e91e63;">
+        <div class="container text-center">
+            <h2 class="mb-3">Freshness Guaranteed. Every Bite, Every Day.</h2>
+            <p class="lead">We rise early so you can rise to flavor. 100% fresh, handmade with love, and delivered to
+                your door.</p>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4">
+        <div class="container text-center">
+            <p class="mb-2">Contact us: <a href="mailto:info@tastyeats.com"
+                    class="text-decoration-none text-light">info@tastyeats.com</a> | +234 90 60 55 7191</p>
+            <div class="mb-3">
+                <a href="#" class="text-light me-3"><i class="bi bi-facebook fs-4"></i></a>
+                <a href="#" class="text-light me-3"><i class="bi bi-instagram fs-4"></i></a>
+                <a href="#" class="text-primary me-3"><i class="bi bi-twitter fs-4"></i></a>
+            </div>
+            <small>© 2025 Tasty Eats Bakery. All rights reserved.</small>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById('navLinks').classList.toggle('show');
+        }
+    </script>
+
+</body>
+
+</html>

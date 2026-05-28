@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tasty Eats Recipes</title>
+  <link rel="stylesheet" href="howtobake.css" />
+</head>
+
+<body>
+
+  <header>
+    <h1>🍰 Tasty Eats Recipes</h1>
+    <p>Click below to reveal how we bake our top treats!</p>
+  </header>
+  <section class="grid">
+    <!-- Cake Card -->
+    <div class="card">
+      <img
+        src="https://media.gettyimages.com/id/184637124/photo/whole-white-cake.jpg?s=612x612&w=0&k=20&c=pq1kIk2-ypcHx7TXvaRUiVIsXsvS_1eP04UsNCWH0No="
+        alt="Cake" />
+      <h2>Classic Vanilla Cake</h2>
+      <p>Soft, fluffy, and perfect for any celebration.</p>
+      <a onclick="toggleRecipe('cake')">View Recipe</a>
+      <div id="cake" class="recipe-details">
+        <strong>Ingredients:</strong>
+        <ul>
+          <li>2½ cups flour</li>
+          <li>1 cup butter</li>
+          <li>1½ cups sugar</li>
+          <li>4 eggs</li>
+          <li>1 cup milk</li>
+          <li>2 tsp baking powder</li>
+          <li>1 tbsp vanilla extract</li>
+        </ul>
+        <strong>Steps:</strong>
+        <ol>
+          <li>Preheat oven to 350°F (175°C)</li>
+          <li>Beat butter and sugar until fluffy</li>
+          <li>Add eggs one at a time</li>
+          <li>Add milk, vanilla, and dry ingredients</li>
+          <li>Bake for 30–35 mins</li>
+        </ol>
+      </div>
+    </div>
+
+    <!-- Donuts Card -->
+    <div class="card">
+      <img
+        src="https://media.gettyimages.com/id/174071227/photo/sugar-donuts.jpg?s=612x612&w=0&k=20&c=cSmepzebGLTRwK9zkKfq6NgeN_cGdnZNSvyqOqvXhic="
+        alt="Donuts" />
+      <h2>Glazed Donuts</h2>
+      <p>Golden, airy donuts with a sweet glaze.</p>
+      <a onclick="toggleRecipe('donuts')">View Recipe</a>
+      <div id="donuts" class="recipe-details">
+        <strong>Ingredients:</strong>
+        <ul>
+          <li>2 cups flour</li>
+          <li>1/4 cup sugar</li>
+          <li>1 egg</li>
+          <li>1/2 cup milk</li>
+          <li>1 tsp yeast</li>
+          <li>2 tbsp butter</li>
+        </ul>
+        <strong>Steps:</strong>
+        <ol>
+          <li>Mix ingredients & knead dough</li>
+          <li>Let rise for 1 hour</li>
+          <li>Cut into shapes & fry in oil</li>
+          <li>Dip in glaze</li>
+        </ol>
+      </div>
+    </div>
+
+    <!-- Croissants Card -->
+    <div class="card">
+      <img
+        src="https://media.gettyimages.com/id/1463021718/photo/croissant-on-white-background.jpg?s=612x612&w=0&k=20&c=dTUXSBPhVOtWsTuj4rugkNidXEQNO93O5T5umgX7ak8="
+        alt="Croissants" />
+      <h2>Buttery croissants</h2>
+      <p>Golden, tasty croissants with a sweet glaze.</p>
+      <a href="javascript:void(0)" onclick="toggleRecipe('croissants')">View Recipe</a>
+      <div id="croissants" class="recipe-details">
+        <strong>Ingredients:</strong>
+        <ul>
+          <li>2 cups flour</li>
+          <li>1/4 cup sugar</li>
+          <li>1 egg</li>
+          <li>1/2 cup milk</li>
+          <li>1 tsp yeast</li>
+          <li>2 tbsp butter</li>
+        </ul>
+        <strong>Steps:</strong>
+        <ol>
+          <li>Mix ingredients & knead dough</li>
+          <li>Let rise for 1 hour</li>
+          <li>Cut into shapes & fry in oil</li>
+          <li>Dip in melted butter</li>
+        </ol>
+      </div>
+    </div>
+    </div>
+    <section class="grid">
+      <!-- Cheesecake -->
+      <div class="card">
+        <img
+          src="https://media.gettyimages.com/id/1300616677/photo/homemade-cheesecake-with-white-chocolate-and-strawberries.jpg?s=612x612&w=0&k=20&c=DjDVbjl8L77mzLeHLYuCXI6Cjw69BRrJpNer2BB90U8="
+          alt="Cheesecake" />
+        <h2>New York Cheesecake</h2>
+        <p>Creamy and rich with a graham cracker crust.</p>
+        <a href="javascript:void(0)" onclick="toggleRecipe('Cheesecake')">View Recipe</a>
+        <div id="Cheesecake" class="recipe-details">
+          <strong>Ingredients:</strong>
+          <ul>
+            <li>2 cups graham cracker crumbs</li>
+            <li>1/2 cup melted butter</li>
+            <li>4 packs cream cheese</li>
+            <li>1 cup sugar</li>
+            <li>4 eggs</li>
+            <li>1 cup sour cream</li>
+            <li>1 tsp vanilla extract</li>
+          </ul>
+          <strong>Steps:</strong>
+          <ol>
+            <li>Mix crumbs and butter, press into pan</li>
+            <li>Beat cream cheese and sugar</li>
+            <li>Add eggs one by one, then sour cream & vanilla</li>
+            <li>Bake at 160°C for 50–60 mins</li>
+            <li>Cool and chill 4+ hours</li>
+          </ol>
+           
+        </div>
+          
+      </div>
+      <!-- Snow Cone -->
+      <div class="card">
+        <img
+          src="https://media.gettyimages.com/id/629325228/photo/shave-ice.jpg?s=612x612&w=0&k=20&c=iVzqn61QQQgThgDWFYuvaRh_i5NTEIFXZRKG8W-frM8="
+          alt="Snow Cone" />
+        <h2>Fruity Snow Cone</h2>
+        <p>Crushed ice topped with fruity syrups.</p>
+        <a href="javascript:void(0)" onclick="toggleRecipe('snowcone')">View Recipe</a>
+        <div id="snowcone" class="recipe-details">
+          <strong>Ingredients:</strong>
+          <ul>
+            <li>Crushed ice</li>
+            <li>Fruit syrups</li>
+            <li>Condensed milk (optional)</li>
+            <li>Paper cones or cups</li>
+          </ul>
+          <strong>Steps:</strong>
+          <ol>
+            <li>Fill cone with crushed ice</li>
+            <li>Drizzle syrups</li>
+            <li>Add condensed milk (optional)</li>
+            <li>Serve immediately</li>
+          </ol>
+        </div>
+      </div>
+
+      <!-- Bread -->
+      <div class="card">
+        <img
+          src="https://media.gettyimages.com/id/184355725/photo/bread.jpg?s=612x612&w=0&k=20&c=VD_zv5K4jyiQDciBe7U5a-OT7iqm5QKDRpSye9ICJiY="
+          alt="Bread" />
+        <h2>Soft Homemade Bread</h2>
+        <p>Freshly baked and golden brown.</p>
+        <a href="javascript:void(0)" onclick="toggleRecipe('bread')">View Recipe</a>
+        <div id="bread" class="recipe-details">
+          <strong>Ingredients:</strong>
+          <ul>
+            <li>3½ cups flour</li>
+            <li>1 cup warm water</li>
+            <li>1 tbsp sugar</li>
+            <li>2¼ tsp yeast</li>
+            <li>1 tsp salt</li>
+            <li>2 tbsp oil</li>
+          </ul>
+          <strong>Steps:</strong>
+          <ol>
+            <li>Activate yeast in warm water + sugar</li>
+            <li>Mix all ingredients and knead</li>
+            <li>Let rise for 1 hour</li>
+            <li>Shape and place in loaf pan</li>
+            <li>Bake at 190°C for 25–30 mins</li>
+          </ol>
+        </div>
+      </div>
+      <!-- recipe section again -->
+      <!-- Apple pie -->
+      <div class="card">
+        <img
+          src="https://media.gettyimages.com/id/119519555/photo/apple-pie.jpg?s=612x612&w=0&k=20&c=CrKFukto0JoxpUrmNxauv8_lP1qNa2qEXXrfKHS-W6E="
+          alt="Apple Pie" />
+        <h2>Tasty fluffy Apple-pie</h2>
+        <p>Freshly baked and delicious tangy feel</p>
+        <a href="javascript:void(0)" onclick="toggleRecipe('Apple Pie')">View Recipe</a>
+        <div id="Apple Pie" class="recipe-details">
+          <strong>Ingredients:</strong>
+          <ul>
+            <li>3½ cups flour</li>
+            <li>Apple slices</li>
+            <li>1 cup warm water</li>
+            <li>1 tbsp sugar</li>
+            <li>2 cups caramel syrup</li>
+            <li>1 tsp salt</li>
+            <li>2 tbsp oil</li>
+          </ul>
+          <strong>Steps:</strong>
+          <ol>
+            <li>Activate yeast in warm water + sugar</li>
+            <li>Mix all ingredients</li>
+            <li>Let rise for 1 hour</li>
+            <li>add apple slices to the pie top</li>
+            <li>Bake at 190°C for 35–50 mins</li>
+          </ol>
+        </div>
+      </div><!-- fruit smoothies -->
+      <div class="card">
+        <img
+          src="https://media.gettyimages.com/id/155376375/photo/fruit-juice.jpg?s=612x612&w=0&k=20&c=DHpot0a67oN-8lSW0CMI7Y4vLM-TlMBBqA7c5kCfrNo="
+          alt="Bread" />
+        <h2>Icy sweet friuty Delights</h2>
+        <p>Freshly made from "real trees"</p>
+        <a href="javascript:void(0)" onclick="toggleRecipe('Fruit smoothies')">View Recipe</a>
+        <div id="Fruit smoothies" class="recipe-details">
+          <strong>Ingredients:</strong>
+          <ul>
+            <li>3½ cups of sugar</li>
+            <li>1 cup cold water</li>
+            <li>1 tbsp of flavoring</li>
+            <li>different assortment of fruits[according to choice]</li>
+          </ul>
+          <strong>Steps:</strong>
+          <ol>
+            <li>Mix all ingredients together</li>
+            <li>Add ice cubes for coolness</li>
+            <li>Let it cool in a freezer for 1 hour</li>
+            <li>Enjoy with a snack,hmmmm!</li>
+          </ol>
+        </div>
+      </div><!-- cheese cakes -->
+      <div class="card">
+        <img
+          src="https://media.gettyimages.com/id/483094539/photo/pink-cupcakes.jpg?s=612x612&w=0&k=20&c=kl27Bk0ndUl5MIU95WJ6aagL4GdqniKTjqWcn8kOvRk="
+          alt="cupcakes" />
+        <h2>Fluffy delicious cup cakes</h2>
+        <p>Freshly baked and delicious</p>
+        <a href="javascript:void(0)" onclick="toggleRecipe('cupcakes')">View Recipe</a>
+        <div id="cupcakes" class="recipe-details">
+          <strong>Ingredients:</strong>
+          <ul>
+            <li>3½ cups flour</li>
+            <li>1 cup warm water</li>
+            <li>1 tbsp of flavoring of choice</li>
+            <li>1 pound of sugar</li>
+            <li>1 tsp salt</li>
+            <li>2 tbsp oil</li>
+          </ul>
+          <strong>Steps:</strong>
+          <ol>
+            <li>add sugar in warm water + salt</li>
+            <li>Mix all ingredients</li>
+            <li>Let rise for 1 hour</li>
+            <li>Shape and place in Bake pan</li>
+            <li>Bake at 190°C for 25–30 mins</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+<footer style="width: 1200px; background-color: plum !important;" class="bg-warning text-light py-4 w-100">
+        <div class="container text-center">
+            <p class="mb-2">Contact us: <a href="mailto:info@tastyeats.com"
+                    class="text-decoration-none text-light">info@tastyeats.com</a> | +234 90 60 55 7191</p>
+            <div class="mb-3">
+                <a href="#" class="text-light me-3"><i class="bi bi-facebook fs-4"></i></a>
+                <a href="#" class="text-light me-3"><i class="bi bi-instagram fs-4"></i></a>
+                <a href="#" class="text-light me-3"><i class="bi bi-twitter fs-4"></i></a>
+            </div>
+            <p>© 2025 Tasty Eats Bakery. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+      function toggleRecipe(id) {
+        const recipe = document.getElementById(id);
+        recipe.style.display = recipe.style.display === 'block' ? 'none' : 'block';
+      }
+    </script>
+
+</body>
+
+</html>
